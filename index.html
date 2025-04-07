@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to My Web Page!</h1>
+    </header>
+
+    
+    <section>
+        <h2>Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>Introduction</li>
+            <li>Features</li>
+            <li>Benefits</li>
+            <li>Contact</li>
+            <li>Conclusion</li>
+        </ol>
+    </section>
+
+    
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/1280046/pexels-photo-1280046.jpeg" alt="Nature Landscape" width="600">
+    </section>
+
+    
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St, Springfield</td>
+                    <td>(123) 456-7890</td>
+                    <td>johndoe@email.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Oak St, Rivertown</td>
+                    <td>(987) 654-3210</td>
+                    <td>janesmith@email.com</td>
+                </tr>
+                <tr>
+                    <td>Sam Brown</td>
+                    <td>789 Pine St, Lakeside</td>
+                    <td>(555) 123-4567</td>
+                    <td>sambrown@email.com</td>
+                </tr>
+                <tr>
+                    <td>Emily White</td>
+                    <td>321 Birch St, Hometown</td>
+                    <td>(444) 789-0123</td>
+                    <td>emilywhite@email.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Green</td>
+                    <td>654 Maple St, Greenfield</td>
+                    <td>(666) 555-9999</td>
+                    <td>michaelgreen@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+    
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br>
+
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br>
+
+            
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date" name="date" required>
+            <br>
+
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="USA">United States</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">United Kingdom</option>
+                <option value="Australia">Australia</option>
+            </select>
+            <br>
+
+            
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <br>
+
+            
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="gaming" name="interests" value="gaming">
+            <label for="gaming">Gaming</label>
+            <input type="checkbox" id="traveling" name="interests" value="traveling">
+            <label for="traveling">Traveling</label>
+            <br>
+
+            
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
